@@ -1,0 +1,19 @@
+# Zeus board configuration
+
+# Copyright (c) 2023 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+config BOARD_ZEUS
+	bool "zeus"
+	depends on SOC_NRF52840_QIAA
+
+config BOARD_ENABLE_DCDC
+	bool "Enable DCDC mode"
+	select SOC_DCDC_NRF52X
+	default y
+	depends on BOARD_ZEUS
+
+config BOARD_ZEUS_CHARGER
+	bool "Enable battery charger"
+	default y
+	depends on BOARD_ZEUS
