@@ -50,7 +50,5 @@ You can find more info on our projets here [Pearlboards](https://pearlboards.net
     - This can be things such as underglow, debug logging, sleep timeouts etc..
  - If your build is not successfull at this point please do not blame me lol
  - More help can be found [here](https://discord.gg/jFzBGF6u5Q)
-  <br>
-  <br>
 ## Understanding
 ### Overview
