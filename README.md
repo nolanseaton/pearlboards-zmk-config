@@ -31,7 +31,8 @@ You can find more info on our projets here [Pearlboards](https://pearlboards.net
     - Open that USB device in your file explorer, and copy or drag and drop the .uf2 for the right side into it
     - DO NOT WORRY IF IT FAILS WITH a '1 Interrupted Action' dialog popping up, asking you to Try Again, Skip or Cancel, as it has most likely been flashed at this point.
     - Once copied the devie will automatically disconnect and flash itself, most likely displaying the message above.
-<br>
+   <br>
+    <br>
 ## Modifying your keyboards keymap
 - You can edit the keymap in '/zmk-config/config/boards/arm/<keyboard>/<keyboard>.keymap' to suit your needs, and then build it with the instructions above.
     - For example, if you wanted to modify Pearls keymap, edit '/zmk-config/config/boards/arm/pearl/pearl.keymap'.
