@@ -58,7 +58,7 @@ You can find more info on our projets here [Pearlboards](https://pearlboards.net
 - If you would like to use the current profile to connect to a new device, you have to clear it first with this keycode 'BT_CLR', and then pair to the new device.
   <br>
   <br>
-  ## Switching between BT and wired
+## Switching between BT and wired
 - [ZMK Docs](https://zmk.dev/docs/behaviors/outputs)
 - No matter what profile you are in, to switch between whats paired there and wired mode (if connected), simply use the keycode 'OUT_TOG'.
 - To favor a wired connection use the keycode "OUT_USB".
