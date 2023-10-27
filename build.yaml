@@ -13,10 +13,4 @@
 #
 ---
 include:
-  - board: s40nc
-include:
-  - board: nice60
-include:
-  - board: s40nc
-include:
-  - board: s40nc
+  - board: pearl
