@@ -6,7 +6,7 @@ You can find more info on our projets here [Pearlboards](https://pearlboards.net
   <br>
 ## Getting Started
 ### Thank you
-- A huge thanks to the entire ZMK team for making all of this possible
+- A huge thanks to the entire ZMK team and my keyboard friends Hedgey, Flawmenco, etc for making all of this possible
 ### Overview
 - By leveraging ZMk and GitHub Actions, this repo will automatically build a flashable firmware file for your PCB whenever a commit is pushed to it.
 - For example, if you change your keymap and commit your changes, this repo will build your new firmware file which you can then flash.
