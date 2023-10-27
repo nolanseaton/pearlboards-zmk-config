@@ -68,4 +68,6 @@ You can find more info on our projets here [Pearlboards](https://pearlboards.net
     - This means that if you select a paired profile, or pair a new device, the keyboard will remain in wired mode until you use the keycode "OUT_TOG".
 - To favor a wireless connection use the keycode "OUT_BLE".
     - This means that if you are wired in, and select a paired profile, or pair a new device, the keyboard will start working in bluetooth mode until you use the keycode "OUT_TOG".
-Enjoy! For all other information please join our [Discord](https://discord.gg/SMuBMmPY)
+  <br>
+  <br>
+  Enjoy! For all other information please join our [Discord](https://discord.gg/SMuBMmPY)
