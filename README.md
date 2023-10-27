@@ -54,6 +54,3 @@ You can find more info on our projets here [Pearlboards](https://pearlboards.net
   <br>
 ## Understanding ZMK Bluetooth keycodes and functionality
 ### Overview
-- Generally upon being powered by USB or an internal battery, your keyboard will advertise itself as connectable via Bluetooth.
-- Its at this point which you can pair it, and whatever 'profile number' is selected (defaults to 0) will be used up and connected to that specific device.
-
