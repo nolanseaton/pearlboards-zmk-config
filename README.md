@@ -50,8 +50,6 @@ You can find more info on our projets here [Pearlboards](https://pearlboards.net
     - This can be things such as underglow, debug logging, sleep timeouts etc..
  - If your build is not successfull at this point please do not blame me lol
  - More help can be found [here](https://discord.gg/jFzBGF6u5Q)
-  <br>
-  <br>
 ## Working with profiles
 - [ZMK Docs](https://zmk.dev/docs/behaviors/bluetooth)
 - Please note there are five available Bluetooth profiles by default. If you need to adjust the number of available profiles, set CONFIG_BT_MAX_CONN and CONFIG_BT_MAX_PAIRED to the desired number of profiles ,n, in your zmk-config .conf file.
