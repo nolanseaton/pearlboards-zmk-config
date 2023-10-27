@@ -52,5 +52,5 @@ You can find more info on our projets here [Pearlboards](https://pearlboards.net
  - More help can be found [here](https://discord.gg/jFzBGF6u5Q)
   <br>
   <br>
-## Understanding ZMK Bluetooth keycodes and functionality
+## Understanding
 ### Overview
