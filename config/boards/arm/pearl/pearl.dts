@@ -9,7 +9,6 @@
 #include <nordic/nrf52840_qiaa.dtsi>
 #include <dt-bindings/zmk/matrix_transform.h>
 #include <dt-bindings/led/led.h>
-
 #include "pearl-pinctrl.dtsi"
 
 / {
@@ -97,36 +96,14 @@
 	status = "okay";
 };
 
-&pinctrl {
-    spi3_default: spi3_default {
-        group1 {
-            psels = <NRF_PSEL(SPIM_MOSI, 0, 25)>;
-        };
-    };
-
-    spi3_sleep: spi3_sleep {
-        group1 {
-            psels = <NRF_PSEL(SPIM_MOSI, 0, 25)>;
-            low-power-enable;
-        };
-    };
-};
-
 &spi3 {
   compatible = "nordic,nrf-spim";
-  //pinctrl-0 = <&spi3_default>;
-  //pinctrl-names = "default";
 
   pinctrl-0 = <&spi3_default>;
   pinctrl-1 = <&spi3_sleep>;
   pinctrl-names = "default", "sleep";
 
-
   status = "okay";
-  //mosi-pin = <25>;
-  // Unused pins, needed for SPI definition, but not used by the ws2812 driver itself.
-  //sck-pin = <0>;
-  //miso-pin = <0>;
 
   led_strip: ws2812@0 {
     compatible = "worldsemi,ws2812-spi";
