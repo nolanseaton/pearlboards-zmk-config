@@ -42,9 +42,9 @@ behaviors {
 		default_layer {
 			bindings = <
       &kp ESC          &kp Q     &kp W      &kp E      &kp R      &kp T     &kp Y  &kp U  &kp I      &kp O    &kp P     &kp BSPC     &kp BSPC
-      &kp TAB          &kp A     &kp S      &kp D      &kp F      &kp G     &kp H  &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
+      &kp TAB          &hm LSHFT A   &hm LCTRL S   &hm LALT D    &hm LGUI F    &hl 2 G     &hl 2 H       &hm LGUI J    &hm LALT K    &hm LCTRL L   &hm RSHFT SEMI  &kp SQT
       &kp LSHIFT       &kp Z     &kp X      &kp C      &kp V      &kp B     &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHIFT
-      &kp LGUI         &hm LC(LA(LS(LGUI))) GRAVE      &kp LALT   &kp SPACE &kp SPACE     &hm LC(LA(LSHFT)) SQT         &mo RGUI
+      &kp LGUI         &hm LC(LA(LS(LGUI))) GRAVE      &kp LALT   &lt 1 SPACE      &kp SPACE         &hm LC(LA(LSHFT)) SQT           &mo RGUI
 			>;
 		};
 
